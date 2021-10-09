@@ -1,0 +1,177 @@
+body {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: "Alegreya Sans",Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  background: #C76926;
+  border: 1px solid #C76926;
+  color: white;
+  font-family: "Alegreya Sans", Helvetica;
+  font-weight: 800;
+  border-radius: 16px;
+  padding: 8px 24px;
+}
+
+h2, h3, h4 {
+  font-weight: 800;
+  font-family: "Alegreya Sans";
+}
+
+h2 {
+  font-size: 30px;
+  color: #36413E;
+}
+
+h3 {
+  font-size: 28px;
+  color: #5D5E60;
+}
+
+h4, p {
+  font-size: 14px;
+}
+
+.top {
+  padding: 0 15%;
+  display: flex;
+  flex-direction: column;
+  background: #E5E7EB;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  gap: 16px;
+}
+
+.navigation ul,
+.navigation a {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+  text-decoration: none;
+  color: #5D5E60;
+  font-size: 18px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px;
+  gap: 32px;
+}
+
+.hero-content {
+  flex-basis: 50%;
+  min-width: 200px;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #5D5E60;
+  margin: 15px 0;
+}
+
+.gallery {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 30px 15% 60px 15%;
+}
+
+.gallery-title {
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-photos {
+  background: white;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 52px;
+}
+
+.gallery-item {
+  flex-basis: 20%;
+  justify-content:center;
+  text-align:center;
+  color: #36413E;
+}
+
+.gallery-item img {
+  border-radius:25px;
+  border: 5px #32936F solid;
+}
+
+.quote {
+  background: #E5E7EB;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 30px 15% 30px 15%;
+}
+
+.quote-text p {
+  text-align: center;
+  padding: 50px 30px;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote .attribution {
+  text-align: right;
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  gap: 16px;
+}
+
+.sign-up {
+  background: #C76926;
+  border-radius: 10px;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  gap: 25px;
+}
+
+.sign-up-text {
+  color: #E5E7EB;
+  padding: 10px;
+}
+
+.cta button {
+  border: 1px solid #E5E7EB;
+  min-width: 15ch;
+}
+
+.footer {
+  background: #36413E;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+}
